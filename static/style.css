@@ -1,0 +1,95 @@
+/* Whole page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffe5d9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+summary {
+    background: lime !important;
+    border: 10px solid blue !important;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: red;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+/* Description */
+p {
+    font-size: 20px;
+    color: seagreen;
+    margin-bottom: 25px;
+}
+
+/* Input box */
+input {
+    width: 500px;
+    max-width: 80%;
+    padding: 15px;
+    border: 2px solid coral;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease grey;
+}
+
+/* Button */
+button {
+    padding: 15px 25px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Summary heading */
+h2 {
+    margin-top: 40px;
+    color: #333;
+}
+
+/* Summary box */
+/*.summary-box {
+    margin: 20px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: left;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}*/
+
+/* Footer */
+h4 {
+    margin-top: 50px;
+    color: gray;
+    font-size: 14px;
+    margin-left: 40px;
+    padding: 20px 30px;
+    font-style: italic;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+}
