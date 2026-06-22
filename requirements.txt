@@ -1,4 +1,5 @@
 flask
-requests
+gunicorn
+google-genai
+youtube-transcript-api
 python-dotenv
-google-api-python-client
