@@ -39,10 +39,11 @@ Understand the transcript regardless of language and provide the summary ONLY in
 Please provide the following sections in your summary:
 1. Short Summary
 2. Important Insights
+3. Key Takeaways
 
 
 Transcript:
-{transcript_text[:6000]}
+{transcript_text[:8000]}
 """
         )
 
