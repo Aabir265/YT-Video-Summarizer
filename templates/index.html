@@ -16,6 +16,9 @@
             This is a YouTube Video Summarizer which fetches YT links
             to bring valuable insights
         </p>
+        <img src="{{ url_for('static', filename='watching-youtube.gif') }}"
+     alt="YouTube Video Summarizer"
+     class="logo">
 
         <main>
             <form action="/summarize" method="post">
@@ -28,6 +31,7 @@
                     <option value="zh">Chinese</option>
                     <option value="ja">Japanese</option>
                     <option value="hi">Hindi</option>
+                     <option value="pa">Punjabi</option>
                 </select>
 
                 <div class="input-group">
