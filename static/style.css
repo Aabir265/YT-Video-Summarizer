@@ -1,13 +1,6 @@
 /* Whole page */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #ffe5d9;
-    font-family: Arial, Helvetica, sans-serif;
-}
-summary {
-    background: lime !important;
-    border: 10px solid blue !important;
+     background-color: #0f172a;
 }
 
 /* Main container */
@@ -20,16 +13,18 @@ summary {
 
 /* Title */
 h1 {
-    color: red;
+     color: #ff0000;
     font-size: 60px;
     margin-bottom: 20px;
+    font-family: 'Montserrat', 'Cambria', 'Times New Roman', serif;
 }
 
 /* Description */
 p {
     font-size: 20px;
-    color: seagreen;
+    color: #d1d5db;
     margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Input box */
@@ -42,19 +37,26 @@ input {
     font-size: 16px;
     outline: none;
     transition: 0.3s ease grey;
+    background-color:darkred;
+    margin-bottom: 20px;
+}
+input:focus {
+    border-color: red;
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.35);
 }
 
 /* Button */
 button {
     padding: 15px 25px;
-    margin-left: 10px;
-    border: none;
+    margin-right: 20px;
     border-radius: 8px;
     background-color: red;
     color: white;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s ease;
+    margin-top: 40px;
+    border-color:darkseagreen;
 }
 
 button:hover {
@@ -64,21 +66,23 @@ button:hover {
 /* Summary heading */
 h2 {
     margin-top: 40px;
-    color: #333;
+    color:aqua;
 }
 
 /* Summary box */
-/*.summary-box {
+.summary-box {
     margin: 20px auto;
     width: 80%;
-    background: white;
+    background-color:  #1e293b;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     text-align: left;
     white-space: pre-wrap;
     line-height: 1.6;
-}*/
+    font: 16px 'Open Sans', sans-serif;
+    color:#f8fafc;
+}
 
 /* Footer */
 h4 {
@@ -92,4 +96,27 @@ h4 {
     font-family: Verdana, Tahoma, sans-serif;
     box-sizing: border-box;
     font-weight: bold;
+    margin-top: 50px;
+}
+#language-operator {
+    box-sizing: border-box;
+    padding:20px;
+    margin-right: 18px;
+    color:palevioletred !important;
+    background-color:darkkhaki !important;
+    font-size: 15px;
+    cursor:pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px !important;
+    border: 2px solid;
+    line-height: 20px; 
+    margin-top: 30px;
+    border-color:mistyrose;
+}
+#logo{
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
 }
