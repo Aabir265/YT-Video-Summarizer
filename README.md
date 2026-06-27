@@ -1,4 +1,4 @@
-````md
+
 # 🎥 YouTube Video Summarizer
 
 A web application that summarizes YouTube videos into concise, easy-to-read insights using **Google Gemini AI**.
@@ -58,7 +58,7 @@ Example:
 
 ```text
 https://www.youtube.com/watch?v=example
-````
+
 
 ### Step 2: Extract video ID
 
