@@ -56,7 +56,6 @@ The application allows users to:
 ### Step 1: User enters YouTube URL
 Example:
 
-```text
 https://www.youtube.com/watch?v=example
 
 
