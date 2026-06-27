@@ -167,7 +167,6 @@ Building this project taught me a lot, especially because I faced multiple real-
 * Managing API keys using `.env`
 * Connecting Flask backend with frontend templates
 * Handling Git & GitHub deployment issues
-* Styling UI with HTML/CSS
 * Understanding why code can work locally but fail in production
 
 This project helped me understand that software engineering is not just about writing code — debugging, deployment, and handling external service limitations are equally important.
